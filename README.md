@@ -5,6 +5,7 @@ on the surface of a moon, with a limited amount of fuel. A meteor flies across t
 
 #### Controls 
 WASD - move lunar lander
+
 Right click - menu to restart or quit
 
 *Background image is Cassiopeia A*
