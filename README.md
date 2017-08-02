@@ -1,4 +1,4 @@
-# 2DGraphics_Coursework
+# Lunar Lander
 
 Coursework project where the player is a lunar lander attempting to land as safely as possible 
 on the surface of a moon, with a limited amount of fuel. A meteor flies across the screen but does nothing
