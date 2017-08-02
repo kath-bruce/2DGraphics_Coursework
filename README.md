@@ -8,5 +8,7 @@ WASD - move lunar lander
 Right click - menu to restart or quit
 
 *Background image is Cassiopeia A*
+
 *Sprite by Kathleen Bruce*
+
 *Code by Kathleen Bruce except for Bitmap and Anisprite classes*
