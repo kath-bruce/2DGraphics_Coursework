@@ -1,4 +1,4 @@
-#include <gl/glut.h>
+#include <GL/glut.h>
 #include <GL/freeglut.h>
 #include "Bitmap.h"
 #include "Terrain.h"
@@ -51,9 +51,9 @@ void enable2D(int width, int height) {
 
 void init()
 {
-	background = new Bitmap("space_background.bmp", false);
+	background = new Bitmap("../LunarLander/space_background.bmp", false);
 	terrain = new Terrain(height/3);
-	landerSprite = new Bitmap("landerStrip.bmp", true);
+	landerSprite = new Bitmap("../LunarLander/landerStrip.bmp", true);
 	lander = new Lander(landerSprite, width, height); lander->setFuel(7.5);
 	meteor = new Meteor(width, height);
 }

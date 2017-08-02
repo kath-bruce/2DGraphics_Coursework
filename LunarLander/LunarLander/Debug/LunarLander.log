@@ -1,47 +1,30 @@
-﻿Build started 08/05/2016 15:24:29.
-     1>Project "C:\Users\kath-\Desktop\LunarLander\LunarLander\LunarLander.vcxproj" on node 2 (Build target(s)).
-       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
-         Main.cpp
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(71): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(72): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(73): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(76): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(77): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(58): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(68): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(69): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(70): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(80): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(82): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(83): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(84): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(89): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(97): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(98): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(99): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(100): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(135): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(140): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(146): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(164): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kath-\Desktop\LunarLander\Debug\LunarLander.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kath-\Desktop\LunarLander\Debug\LunarLander.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kath-\Desktop\LunarLander\Debug\LunarLander.lib" /MACHINE:X86 Debug\AniSprite.obj
-         Debug\Bitmap.obj
-         Debug\Lander.obj
-         Debug\Main.obj
-         Debug\Meteor.obj
-         Debug\random.obj
-         Debug\Terrain.obj
-         LunarLander.vcxproj -> C:\Users\kath-\Desktop\LunarLander\Debug\LunarLander.exe
-     1>Done Building Project "C:\Users\kath-\Desktop\LunarLander\LunarLander\LunarLander.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:02.27
+﻿  Main.cpp
+c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(71): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(73): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(76): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\anisprite.h(77): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(97): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(98): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(99): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(100): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(140): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(146): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\kath-\desktop\lunarlander\lunarlander\main.cpp(164): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  LunarLander.vcxproj -> C:\Users\kath-\Desktop\LunarLander\Debug\LunarLander.exe
+  LunarLander.vcxproj -> C:\Users\kath-\Desktop\LunarLander\Debug\LunarLander.pdb (Full PDB)
